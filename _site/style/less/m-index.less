@@ -1,0 +1,57 @@
+.index-artlist {
+  @imgWidth: 658px;
+  @imgHeight: 330px;
+
+  li {
+    position: relative;
+    margin-bottom: 20px;
+    padding-right: @imgWidth;
+    height: @imgHeight;
+    background: #fff;
+
+    .art-h {
+      @topSpace: 130px;
+
+      display: block;
+      padding: @topSpace 34px 0 34px;
+      height: @imgHeight - @topSpace;
+      transition: all .3s;
+
+      h5 {
+        .font(24px);
+      }
+      p {
+        color: @c999;
+        .font(18px);
+        transition: all .3s;
+      }
+
+      &:hover {
+        background: @c333;
+        color: #fff;
+
+        p {
+          color: #fff;
+        }
+      }
+    }
+
+    .art-i {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: @imgWidth;
+      height: @imgHeight;
+    }
+
+    &.odd {
+      padding-left: @imgWidth;
+      padding-right: 0;
+
+      .art-i {
+        left: 0;
+        right: auto;
+      }
+    }
+  }
+}

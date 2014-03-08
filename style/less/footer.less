@@ -1,0 +1,41 @@
+@footHeight: 176px;
+@footTopSpace: 60px;
+
+.footer-wrap {
+  width: 100%;
+  background: #fff;
+
+  .footer {
+    position: relative;
+    margin: 0 auto;
+    padding-top: @footTopSpace;
+    width: @pageWidth;
+    height: @footHeight - @footTopSpace;
+    background: #fff;
+    color: @c999;
+    .font(14px);
+
+    .item() {
+      position: absolute;
+      top: @footTopSpace;
+      padding: 0 6px;
+    }
+
+    .copy {
+      .item();
+      left: 0;
+    }
+
+    .contact {
+      .item();
+      right: 0;
+      width: 320px;
+
+      .t {
+        display: inline-block;
+        width: 56px;
+        color: @c666;
+      }
+    }
+  }
+}
