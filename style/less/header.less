@@ -1,0 +1,52 @@
+@url-logo: '../img/logo.jpg';
+@headHeight: 144px;
+
+.header-wrap {
+  width: 100%;
+  background: #fff;
+
+  .header {
+    position: relative;
+    width: @pageWidth;
+    height: @headHeight;
+    margin: 0 auto;
+    background: #fff;
+
+    .logo {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 90px;
+      height: 144px;
+      background: url(@url-logo) 0 0 no-repeat;
+
+      &:hover {
+        opacity: .8;
+      }
+    }
+
+    .menu {
+      position: absolute;
+      right: 0;
+      top: 0;
+
+      li {
+        float: left;
+        margin-left: 50px;
+        height: @headHeight;
+        line-height: @headHeight;
+        _display: inline;
+
+        a {
+          padding: 0 22px;
+          color: @c999;
+          .font(16px);
+
+          &.c {
+            color: @c666;
+          }
+        }
+      }
+    }
+  }
+}
