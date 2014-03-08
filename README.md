@@ -20,3 +20,11 @@ chasondesign.github.com
 #### 记录文章
 
     record/_posts
+
+#### 图片文件夹
+
+    upload
+
+#### 图片路径
+
+    /upload/xxx
