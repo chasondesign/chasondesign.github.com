@@ -2,22 +2,40 @@
   post: 交互设计师
   company: 好试网络
   location: 深圳
-  link: http://vicbeta.com
+  image: /upload/circle/circle_01.jpg
+  link: http://baidu.com
 
 - name: Lynn
   post: 特效设计师
   company: 腾讯
   location: 深圳
+  image: /upload/circle/circle_02.jpg
   link: http://vicbeta.com
 
 - name: Tianh
   post: 图形界面设计师
   company: 腾讯
   location: 上海
+  image: /upload/circle/circle_03.jpg
   link: http://vicbeta.com
 
 - name: Eason
   post: 交互设计师
   company: 腾讯
   location: 北京
+  image: /upload/circle/circle_04.jpg
+  link: http://vicbeta.com
+
+- name: Eason
+  post: 交互设计师
+  company: 腾讯
+  location: 北京
+  image: /upload/circle/circle_05.jpg
+  link: http://vicbeta.com
+
+- name: Eason
+  post: 交互设计师
+  company: 腾讯
+  location: 北京
+  image: /upload/circle/circle_06.jpg
   link: http://vicbeta.com
