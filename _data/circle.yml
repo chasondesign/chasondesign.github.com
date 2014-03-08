@@ -1,0 +1,23 @@
+- name: Monkey
+  post: 交互设计师
+  company: 好试网络
+  location: 深圳
+  link: http://vicbeta.com
+
+- name: Lynn
+  post: 特效设计师
+  company: 腾讯
+  location: 深圳
+  link: http://vicbeta.com
+
+- name: Tianh
+  post: 图形界面设计师
+  company: 腾讯
+  location: 上海
+  link: http://vicbeta.com
+
+- name: Eason
+  post: 交互设计师
+  company: 腾讯
+  location: 北京
+  link: http://vicbeta.com

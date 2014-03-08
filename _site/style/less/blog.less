@@ -1,0 +1,40 @@
+// global
+@pageWidth: 990px;
+
+@c333: #333;
+@c666: #666;
+@c999: #999;
+@cccc: #ccc;
+
+@font-face {
+  font-family: 'zpix';
+  src: url('../font/ZpixEX2_EX.ttf');
+}
+
+.font(@size: 12px, @line-height: 1.6, @font-weight: normal, @font-family: 'zpix') {
+  font: @font-weight @size/@line-height @font-family, tahoma, arial, sans-serif;
+}
+
+// set
+@import url(./reset.less);
+
+// global
+@import url(./global.less);
+
+// header
+@import url(./header.less);
+
+// index
+@import url(./m-index.less);
+
+// record
+@import url(./m-record.less);
+
+// circle
+@import url(./m-circle.less);
+
+// case
+@import url(./m-case.less);
+
+// footer
+@import url(./footer.less);

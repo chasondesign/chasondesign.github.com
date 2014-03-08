@@ -1,0 +1,49 @@
+.case-cnt-wrap {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.case-cnt {
+  overflow: hidden;
+  background: #fff;
+}
+
+.case-ctrl-wrap {
+  width: @pageWidth;
+  background: #fff;
+  overflow: hidden;
+}
+
+.case-ctrl {
+  @border: 1px solid #f1f1f1;
+  @ctWidth: 330px;
+  @ctHeight: 96px;
+
+  width: @ctWidth * 3;
+  padding-left: 1px;
+  border-top: @border;
+
+  li {
+    float: left;
+    _display: inline;
+
+    .ct {
+      display: block;
+      width: @ctWidth - 1px;
+      height: @ctHeight;
+      border-right: @border;
+      font: 0/0 a;
+      overflow: hidden;
+
+      &.ct-back {
+        background: url(../img/brew.jpg) center -2px no-repeat;
+      }
+      &.ct-prev {
+        background: url(../img/brew.jpg) center -202px no-repeat;
+      }
+      &.ct-next {
+        background: url(../img/brew.jpg) center -102px no-repeat;
+      }
+    }
+  }
+}

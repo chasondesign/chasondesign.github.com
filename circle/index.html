@@ -1,0 +1,28 @@
+---
+layout: circle
+title: 圈子
+---
+
+<div class="cnt-wrap">
+  <div class="circle-wrap">
+    <h2 class="circle-tit">灵感来自思想的碰撞</h2>
+    
+    <ul class="circle-list clearfix">
+      {% for circle in site.data.circle %}
+      <li>
+        <a href="{{ circle.link }}" target="_blank" class="avatar">
+          <img src="http://fpoimg.com/148x208" width="148" height="208" alt="" />
+        </a>
+        
+        <a href="{{ circle.link }}" target="_blank" class="name">{{ circle.name }}</a>
+
+        <div class="site">
+          <p>{{ circle.post }}</p>
+          <p>{{ circle.company }}</p>
+        </div>
+        <p class="local">{{ circle.location }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

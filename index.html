@@ -1,13 +1,22 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Chason Design</title>
-  <link rel="stylesheet" href="/style/css/blog.css" />
-</head>
-<body>
-  <!--# include virtual="/module/header.html" -->
-  <!--# include virtual="/module/index.html" -->
-  <!--# include virtual="/module/footer.html" -->
-</body>
-</html>
+---
+layout: index
+title: 首页
+---
+
+<div class="cnt-wrap">
+
+  <ul class="index-artlist">
+    {% for item in site.data.index %}
+    <li class="{{ item.class }}">
+      <a class="art-h" href="{{ item.link }}">
+        <h5>{{ item.title }}</h5>
+        <p>{{ item.summary }}</p>
+      </a>
+      <a class="art-i" href="{{ item.link }}">
+        <img src="{{ item.image }}" width="658" height="330" alt="" />
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div>

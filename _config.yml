@@ -1,0 +1,13 @@
+baseurl: /
+nav:
+  - name: 案例
+    tag: case
+    link: /
+
+  - name: 记录
+    tag: record
+    link: /record
+
+  - name: 圈子
+    tag: circle
+    link: /circle

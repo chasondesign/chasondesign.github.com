@@ -1,0 +1,63 @@
+.circle-wrap {
+  width: @pageWidth;
+  overflow: hidden;
+
+  .circle-tit {
+    padding: 54px 0;
+    height: 40px;
+    font: 0/0 a;
+    overflow: hidden;
+    background: url(../img/circle_h.jpg) center center no-repeat;
+  }
+
+  .circle-list {
+    @blockWidth: 316px;
+    @blockHeight: 208px;
+    @imgWidth: 148px;
+
+    @space: 21px;
+    @padding: 20px;
+
+    width: (@blockWidth + @space) * 3;
+
+    li {
+      position: relative;
+      float: left;
+      width: @blockWidth - @imgWidth - @padding * 2;
+      height: @blockHeight - @padding * 2;
+      padding: @padding;
+      padding-left: @imgWidth + @padding;
+      margin-right: @space;
+      margin-bottom: 20px;
+      background: #fff;
+      _display: inline;
+
+      .avatar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: @imgWidth;
+      }
+
+      .name {
+        .font(18px);
+      }
+
+      .site {
+        position: absolute;
+        left: @imgWidth + @padding;
+        bottom: 48px;
+        color: @c999;
+      }
+
+      .local {
+        position: absolute;
+        left: @imgWidth + @padding;
+        bottom: 20px;
+        padding-left: 16px;
+        background: url(../img/local.jpg) 0 2px no-repeat;
+        color: @cccc;
+      }
+    }
+  }
+}
