@@ -24,28 +24,24 @@
   @ctHeight: 96px;
 
   width: @ctWidth * 3;
-  padding-left: 1px;
   border-top: @border;
 
   li {
-    float: left;
-    _display: inline;
-
     .ct {
       display: block;
-      width: @ctWidth - 1px;
+      width: @ctWidth * 3;
       height: @ctHeight;
-      border-right: @border;
       font: 0/0 a;
       overflow: hidden;
 
       &.ct-back {
-        background: #fff url(../img/brew.jpg) center -2px no-repeat;
+        background: #fff url(../img/brew.jpg) 446px -2px no-repeat;
 
         &:hover {
-          background: #f6f6f6 url(../img/brew.jpg) center -302px no-repeat;
+          background: #f6f6f6 url(../img/brew.jpg) 447px -302px no-repeat;
         }
       }
+      /*
       &.ct-prev {
         background: #fff url(../img/brew.jpg) center -202px no-repeat;
 
@@ -60,6 +56,7 @@
           background: #f6f6f6 url(../img/brew.jpg) center -402px no-repeat;
         }
       }
+      */
     }
   }
 }
@@ -93,6 +90,7 @@
     }
   }
 }
+
 /* plugin article */
 .ac-plugin-list {
   padding-bottom: 40px;
