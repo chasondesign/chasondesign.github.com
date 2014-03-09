@@ -40,13 +40,88 @@
       overflow: hidden;
 
       &.ct-back {
-        background: url(../img/brew.jpg) center -2px no-repeat;
+        background: #fff url(../img/brew.jpg) center -2px no-repeat;
+
+        &:hover {
+          background: #f6f6f6 url(../img/brew.jpg) center -302px no-repeat;
+        }
       }
       &.ct-prev {
-        background: url(../img/brew.jpg) center -202px no-repeat;
+        background: #fff url(../img/brew.jpg) center -202px no-repeat;
+
+        &:hover {
+          background: #f6f6f6 url(../img/brew.jpg) center -502px no-repeat;
+        }
       }
       &.ct-next {
-        background: url(../img/brew.jpg) center -102px no-repeat;
+        background: #fff url(../img/brew.jpg) center -102px no-repeat;
+
+        &:hover {
+          background: #f6f6f6 url(../img/brew.jpg) center -402px no-repeat;
+        }
+      }
+    }
+  }
+}
+
+/* app crticle */
+.ac-list {
+  padding-bottom: 40px;
+
+  li {
+    position: relative;
+
+    .app-icon {
+      position: absolute;
+      top: 22px;
+      left: 42px;
+    }
+
+    .app-info {
+      margin-left: 136px;
+      padding: 18px 30px 18px 4px;
+      min-height: 78px;
+      border-bottom: 1px solid #f1f1f1;
+
+      .app-name {
+        font: normal 16px/1.8 helvetica, tahoma, arial, sans-serif;
+      }
+      p {
+        color: @c666;
+        .font(14px, 1.8);
+      }
+    }
+  }
+}
+/* plugin article */
+.ac-plugin-list {
+  padding-bottom: 40px;
+  padding-left: 1px;
+  width: 100%;
+
+  li {
+    float: left;
+    border-right: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 20px 20px 2px 19px;
+    _display: inline;
+
+    .app-icon {
+      img {
+        vertical-align: middle;
+      }
+    }
+
+    .app-info {
+      padding: 0 10px;
+      .font(14px, 3);
+
+      .app-name {
+        margin-right: 10px;
+      }
+
+      span {
+        color: @c999;
       }
     }
   }
