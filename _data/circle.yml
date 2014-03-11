@@ -5,19 +5,19 @@
   image: /upload/circle/circle_01.jpg
   link: http://works.zcool.com.cn/
 
-- name: Monkey
+- name: Menkey
   post: 交互设计师
   company: 好视网络
   location: 深圳
   image: /upload/circle/circle_02.jpg
-  link: http://vicbeta.com
+  link: http://menkey1.lofter.com/
 
 - name: Lynn
   post: 交互设计师
   company: 智美达
   location: 深圳
   image: /upload/circle/circle_03.jpg
-  link: http://vicbeta.com
+  link: http://lynncheng3.lofter.com/
 
 - name: Vic
   post: 前端工程师
@@ -31,32 +31,11 @@
   company: 唐硕
   location: 上海
   image: /upload/circle/circle_05.jpg
-  link: http://vicbeta.com
+  link: 
 
 - name: Laurence
   post: 图形界面设计师
   company: 大众点评
   location: 上海
   image: /upload/circle/circle_06.jpg
-  link: http://vicbeta.com
-
-- name: Vic
-  post: 前端工程师
-  company: 蘑菇街
-  location: 杭州
-  image: /upload/circle/circle_03.jpg
-  link: http://vicbeta.com
-
-- name: Eason
-  post: 交互设计师
-  company: 唐硕
-  location: 上海
-  image: /upload/circle/circle_03.jpg
-  link: http://vicbeta.com
-
-- name: Laurence
-  post: 图形界面设计师
-  company: 大众点评
-  location: 上海
-  image: /upload/circle/circle_03.jpg
-  link: http://vicbeta.com
+  link: http://laurencexi.lofter.com
