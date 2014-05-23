@@ -4,6 +4,10 @@ nav:
     tag: case
     link: /
 
+  - name: 分享
+    tag: share
+    link: /share
+
   - name: 记录
     tag: record
     link: /record
