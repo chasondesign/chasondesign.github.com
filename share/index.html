@@ -1,0 +1,22 @@
+---
+layout: index
+title: 分享
+---
+
+<div class="cnt-wrap">
+
+  <ul class="index-artlist">
+    {% for item in site.data.share %}
+    <li class="{{ item.class }}">
+      <a class="art-h" href="{{ item.link }}">
+        <h5>{{ item.title }}</h5>
+        <p>{{ item.summary }}</p>
+      </a>
+      <a class="art-i" href="{{ item.link }}">
+        <img src="{{ item.image }}" width="658" height="330" alt="" />
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div>
